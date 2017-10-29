@@ -40,8 +40,7 @@ gulp.task('dev', ['browserSync'], function() {
   gulp.watch('*.html', browserSync.reload);
 });
 
-gulp.task('package', function () {
-    gulp.src(['./images/*']).pipe(gulp.dest('./dist/images'))
+gulp.task('dist', function () {
     gulp.src(['./vendor/**/*']).pipe(gulp.dest('./dist/vendor'))
     gulp.src(['./js/*']).pipe(gulp.dest('./dist/js'))
     gulp.src(['./css/*']).pipe(gulp.dest('./dist/css'))
