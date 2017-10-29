@@ -4,5 +4,6 @@ Based on [Scrolling Nav](http://startbootstrap.com/template-overviews/scrolling-
 
 ## Usage
 
-* run `npm install`
-* run `gulp dev`
+* run `npm install` to get started
+* run `gulp dev` to run local dev server
+* run `gulp package` to create dist
